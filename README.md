@@ -19,10 +19,10 @@
 
 ### What can I practice with this kata
 
-Working with collaborators
-Baby steps
-Object Calisthenics
-Test doubles
+- Working with collaborators
+- Baby steps
+- Object Calisthenics
+- Test doubles
 
 # Base para hacer tests
 
