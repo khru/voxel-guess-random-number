@@ -1,51 +1,33 @@
-# Kata
+_Support this and all my katas via [Patreon](https://www.patreon.com/EmilyBache)_
 
-[Guess the random number](https://www.codurance.com/katas/random-number-kata)
+Parrot Refactoring Kata
+=======================
 
-## Business rules
+Can you spot any code smells in this code? I'll give you a clue - a spot of Pol(l)ymorphism should improve matters!
 
-- The user starts playing, the game generates a random number that must not
-  change until the game it's over.
-- If the user guesses the number the player wins.
-- If the user does not guess the number the system would have to notify the user
-  if the number it's higher or lower.
-- If the user does not guess the number on three intents it will lose.
+Refactor this code, take small steps, run the tests often. See how small and beautiful and polymorphic you can make it.
 
-## Domain terms
+I made a [video explaining this kata](https://youtu.be/UxNEHKg_2eA), and another [video with a worked solution in C#](https://youtu.be/IvFX8Ivit1k).
 
-- Target (number to guess)
-- Guess
-- Attempt
+Acknowlegements
+---------------
 
-### What can I practice with this kata
+This code is heavily inspired by one of the examples in Martin Fowler's book "Refactoring". It's a classic, and if it's not on your bookshelf already I suggest you treat yourself to a copy!
 
-- Working with collaborators
-- Baby steps
-- Object Calisthenics
-- Test doubles
 
-# Base para hacer tests
+Parrot Refactoring Kata Java version
+====================================
 
-Configuración básica para empezar a hacer una kata o aprender a hacer tests en
-los siguientes lenguajes:
+Parrot Refactoring Kata.
 
-- Java con Junit y Mockito
+This is a [Maven](https://maven.apache.org/) and a [Gradle](https://gradle.org/) project at the same time.
 
-# Configuración específica por lenguaje
+To install dependencies:
 
-## Java con Junit y Mockito
+    mvn verify
 
-1. Instalar las dependencias y tests con Maven [mvn test]
-2. Ejecutar los tests con el IDE
+The project uses [JUnit](https://junit.org/).
 
-### 📚 Documentación
+To run the test:
 
-- [JUnit](https://github.com/junit-team/junit/wiki)
-- [Mockito](http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html)
-
-Basic parameterized test junit
-
-```
-@ParameterizedTest
-@CsvSource({"4", "3", "2"})
-```
+    mvn test
